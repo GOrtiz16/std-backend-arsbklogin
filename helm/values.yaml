@@ -15,7 +15,7 @@ containerPort: 8090
 service:
   name: login
   type: LoadBalancer
-  port: 8091
+  port: 8090
   targetPort: 8090
 
 ingress:
